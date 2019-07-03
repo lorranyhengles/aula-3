@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'nav nav nav nav'
+                         'section section section aside'
+                         'batata batata batata batata'
+                         'footer footer footer footer';
+    grid-template-rows: 10vh 15vh 90vh 60vh 30vh;
+    grid-template-columns: 24vw 24vw 24vw 26.5vw;
+    font-family: 'Patua One', cursive;
+}
+header{
+    grid-area: header;
+    background-color: #f8f4f5;
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 100%;
+    border-radius: 50px;
+}
+.teste{
+    font-size: 30px;
+    text-align: center;
+}
+.giff{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    grid-area: nav;
+    background-color:#cf0606;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+section{
+    grid-area: section;
+    background-color: hsl(0, 33%, 98%);
+}
+.batata{
+    grid-area: batata;
+    background-image: url(img/ney.jpg);
+    /* background-color: black; */
+   
+}
+.fake p{
+    font-size: 4.5rem;
+}
+aside{
+    grid-area: aside;
+    background-color:#a458eb;
+    /* text-align: center;
+    padding: 0 20px;  */
+} 
+.groot{
+    display: flex;
+    
+}
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
